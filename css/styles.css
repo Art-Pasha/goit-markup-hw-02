@@ -4,7 +4,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
 
@@ -17,9 +17,9 @@ body {
 }
 
 .container {
-   /* width: 1158px;
-    margin: 0 auto;*/
-    padding: 0 15px;
+    width: 1158px;
+    margin: 0 auto;
+    
 }
 
 img {
@@ -32,21 +32,9 @@ img {
 /* Typography & Helpers                             */
 /* ================================================ */
 
-.visually-hidden{
-    /*position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;*/
-}
 
 .section {
-    padding: 120px 0;
+    
 }
 
 .section-title {
@@ -70,9 +58,7 @@ img {
 }
 
 .header-container {
-    /*display: flex;
-    align-items: center;
-    padding: 24px 0;*/
+    
 }
 
 .logo {
@@ -92,7 +78,7 @@ img {
 }
 
 .nav-list {
-    display: flex;
+    list-style: none;
     gap: 40px;
 }
 
@@ -103,7 +89,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-    padding: 24px 0;
+   
     transition: color 0.25s;
 }
 
@@ -114,7 +100,7 @@ img {
 }
 
 .address-list {
-    display: flex;
+    list-style: none;
     gap: 40px;
     margin-left: auto;
 }
@@ -140,11 +126,9 @@ img {
 
 .hero {
     background-color: #2e2f42;
-   /*padding: 188px 0;*/
+   
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-        url(../images/hero-people-office.jpg);
+    
     background-size: cover;
     background-position: center;
 }
@@ -167,14 +151,14 @@ img {
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
-    border-radius: 4px;
+    
 }
 
 .hero-btn {
     background-color: #4d5ae5;
     color: #fff;
     min-width: 169px;
-    padding: 16px 32px;
+    
     transition: background-color 0.25s;
 }
 
@@ -188,12 +172,12 @@ img {
 /* ================================================ */
 
 .features-list {
-   /* display: flex;
-    gap: 24px;*/
+    list-style: none;
+    gap: 24px;
 }
 
 .feature-item {
-    width: calc((100% - 72px) / 4);
+    
 }
 
 .feature-title {
@@ -214,20 +198,19 @@ img {
 }
 
 .team-list {
-    /*display: flex;
-    gap: 24px;*/
+    list-style: none;
+    gap: 24px;
 }
 
 .team-card {
     background: #fff;
-    border-radius: 0 0 4px 4px;
+    
     overflow: hidden;
-    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
-        0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
+    
 }
 
 .team-info {
-    padding: 32px 0;
+    
     text-align: center;
 }
 
@@ -251,9 +234,8 @@ img {
 /* ================================================ */
 
 .portfolio-list {
-   /* display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;*/
+    list-style: none;
+    gap: 48px 24px;
 }
 
 .portfolio-item {
